@@ -10,6 +10,26 @@ body {
   position: relative;
 }
 
+.triangle {
+  position: absolute;
+  -webkit-transform: rotateZ(-30deg);
+          transform: rotateZ(-30deg);
+  top: 16vh;
+  left: -7vw;
+  z-index: -2;
+  width: 15vw;
+  opacity: 30%;
+}
+
+.circle {
+  position: absolute;
+  bottom: 15vh;
+  left: -5vw;
+  z-index: -2;
+  width: 15vw;
+  opacity: 30%;
+}
+
 .orange {
   position: absolute;
   top: -5vh;
@@ -240,6 +260,9 @@ footer div.freepik {
 @media screen and (max-width: 1115px) {
   .orange {
     opacity: 50%;
+  }
+  .circle {
+    opacity: 0%;
   }
   header nav ul {
     width: 100%;
