@@ -152,11 +152,70 @@ main {
     div.orangeRect {
       width: 25vw;
       height: 80vh;
-      background-color: #ff9344;
+      background-color: #e08958;
       position: absolute;
       top: 18%;
       right: 4%;
       z-index: -1;
+    }
+  }
+  section.form {
+    flex: 1 1 550px;
+    form {
+      display: flex;
+      min-height: 70vh;
+      flex-direction: column;
+      justify-content: space-around;
+      // align-items: center;
+      padding: 1.5rem;
+      div {
+        // width: 80%;
+        margin: 0.5rem;
+        flex-direction: column;
+        text-align: center;
+        label {
+          font-size: 3rem;
+          margin-right: 1rem;
+        }
+        textarea,
+        input {
+          background-color: #ff9344;
+          color: white;
+          font-size: 2.5rem;
+          padding: 0.5rem 0.25rem;
+          border-style: none;
+          width: 80%;
+        }
+        textarea {
+          vertical-align: top;
+        }
+      }
+      button {
+        align-self: center;
+        padding: 2% 5%;
+        background-color: #e08958;
+        border-style: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 2rem;
+      }
+    }
+  }
+  div.line {
+    background-color: #39342e;
+    width: 3px;
+  }
+  section.contact {
+    flex: 1 1 550px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    div.content {
+      h2 {
+        margin: 1rem 2rem;
+        font-size: 6rem;
+      }
     }
   }
 }
@@ -276,6 +335,39 @@ footer {
         right: 4%;
       }
     }
+    section.form {
+      flex: 1 1 550px;
+      form {
+        min-height: 70vh;
+        padding: 1.5rem;
+        div {
+          margin: 0.5rem;
+          label {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+          }
+          textarea,
+          input {
+            font-size: 1.25rem;
+            padding: 0.5rem 0.25rem;
+            width: 80%;
+          }
+        }
+        button {
+          padding: 2% 5%;
+          font-size: 2rem;
+        }
+      }
+    }
+    section.contact {
+      flex: 1 1 550px;
+      width: 80%;
+      div.content {
+        h2 {
+          margin: 1rem 2rem;
+        }
+      }
+    }
   }
 }
 
@@ -346,6 +438,40 @@ footer {
         right: 4%;
       }
     }
+    section.form {
+      flex: 1 1 550px;
+      form {
+        min-height: 70vh;
+        padding: 1.5rem;
+        div {
+          margin: 0.5rem;
+          label {
+            font-size: 2rem;
+            margin-right: 1rem;
+          }
+          textarea,
+          input {
+            font-size: 1.5rem;
+            padding: 0.5rem 0.25rem;
+            width: 80%;
+          }
+        }
+        button {
+          padding: 2% 5%;
+          font-size: 2rem;
+        }
+      }
+    }
+    section.contact {
+      flex: 1 1 550px;
+      width: 80%;
+      div.content {
+        h2 {
+          margin: 1rem 2rem;
+          font-size: 3.5rem;
+        }
+      }
+    }
   }
 }
 
@@ -376,6 +502,40 @@ footer {
         height: 70vh;
         top: 22%;
         right: 2%;
+      }
+    }
+    section.form {
+      flex: 1 1 550px;
+      form {
+        min-height: 70vh;
+        padding: 1.5rem;
+        div {
+          margin: 0.5rem;
+          label {
+            font-size: 1rem;
+            margin-right: 1rem;
+          }
+          textarea,
+          input {
+            font-size: 1rem;
+            padding: 0.5rem 0.25rem;
+            width: 80%;
+          }
+        }
+        button {
+          padding: 2% 5%;
+          font-size: 2rem;
+        }
+      }
+    }
+    section.contact {
+      flex: 1 1 550px;
+      width: 80%;
+      div.content {
+        h2 {
+          margin: 1rem 2rem;
+          font-size: 3.5rem;
+        }
       }
     }
   }
@@ -448,6 +608,40 @@ footer {
       }
       div.orangeRect {
         display: none;
+      }
+    }
+    section.form {
+      flex: 1 1 550px;
+      form {
+        min-height: 70vh;
+        padding: 1.5rem;
+        div {
+          margin: 0.5rem;
+          label {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+          }
+          textarea,
+          input {
+            font-size: 1.25rem;
+            padding: 0.5rem 0.25rem;
+            width: 80%;
+          }
+        }
+        button {
+          padding: 2% 5%;
+          font-size: 2rem;
+        }
+      }
+    }
+    section.contact {
+      flex: 1 1 550px;
+      width: 80%;
+      div.content {
+        h2 {
+          font-size: 1.25rem;
+          margin: 1rem 2rem;
+        }
       }
     }
   }

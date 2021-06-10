@@ -187,11 +187,95 @@ main section.picture img {
 main section.picture div.orangeRect {
   width: 25vw;
   height: 80vh;
-  background-color: #ff9344;
+  background-color: #e08958;
   position: absolute;
   top: 18%;
   right: 4%;
   z-index: -1;
+}
+
+main section.form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 550px;
+          flex: 1 1 550px;
+}
+
+main section.form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 70vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1.5rem;
+}
+
+main section.form form div {
+  margin: 0.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main section.form form div label {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+main section.form form div textarea,
+main section.form form div input {
+  background-color: #ff9344;
+  color: white;
+  font-size: 2.5rem;
+  padding: 0.5rem 0.25rem;
+  border-style: none;
+  width: 80%;
+}
+
+main section.form form div textarea {
+  vertical-align: top;
+}
+
+main section.form form button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 2% 5%;
+  background-color: #e08958;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+main div.line {
+  background-color: #39342e;
+  width: 3px;
+}
+
+main section.contact {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 550px;
+          flex: 1 1 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+main section.contact div.content h2 {
+  margin: 1rem 2rem;
+  font-size: 6rem;
 }
 
 footer {
@@ -299,6 +383,41 @@ footer div.freepik {
     top: 18%;
     right: 4%;
   }
+  main section.form {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 550px;
+            flex: 1 1 550px;
+  }
+  main section.form form {
+    min-height: 70vh;
+    padding: 1.5rem;
+  }
+  main section.form form div {
+    margin: 0.5rem;
+  }
+  main section.form form div label {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  main section.form form div textarea,
+  main section.form form div input {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.25rem;
+    width: 80%;
+  }
+  main section.form form button {
+    padding: 2% 5%;
+    font-size: 2rem;
+  }
+  main section.contact {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 550px;
+            flex: 1 1 550px;
+    width: 80%;
+  }
+  main section.contact div.content h2 {
+    margin: 1rem 2rem;
+  }
 }
 
 @media screen and (max-width: 2000px) {
@@ -365,6 +484,42 @@ footer div.freepik {
     top: 22%;
     right: 4%;
   }
+  main section.form {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 550px;
+            flex: 1 1 550px;
+  }
+  main section.form form {
+    min-height: 70vh;
+    padding: 1.5rem;
+  }
+  main section.form form div {
+    margin: 0.5rem;
+  }
+  main section.form form div label {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  main section.form form div textarea,
+  main section.form form div input {
+    font-size: 1.5rem;
+    padding: 0.5rem 0.25rem;
+    width: 80%;
+  }
+  main section.form form button {
+    padding: 2% 5%;
+    font-size: 2rem;
+  }
+  main section.contact {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 550px;
+            flex: 1 1 550px;
+    width: 80%;
+  }
+  main section.contact div.content h2 {
+    margin: 1rem 2rem;
+    font-size: 3.5rem;
+  }
 }
 
 @media screen and (max-width: 1535px) {
@@ -388,6 +543,42 @@ footer div.freepik {
     height: 70vh;
     top: 22%;
     right: 2%;
+  }
+  main section.form {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 550px;
+            flex: 1 1 550px;
+  }
+  main section.form form {
+    min-height: 70vh;
+    padding: 1.5rem;
+  }
+  main section.form form div {
+    margin: 0.5rem;
+  }
+  main section.form form div label {
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  main section.form form div textarea,
+  main section.form form div input {
+    font-size: 1rem;
+    padding: 0.5rem 0.25rem;
+    width: 80%;
+  }
+  main section.form form button {
+    padding: 2% 5%;
+    font-size: 2rem;
+  }
+  main section.contact {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 550px;
+            flex: 1 1 550px;
+    width: 80%;
+  }
+  main section.contact div.content h2 {
+    margin: 1rem 2rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -466,6 +657,42 @@ footer div.freepik {
   }
   main section.picture div.orangeRect {
     display: none;
+  }
+  main section.form {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 550px;
+            flex: 1 1 550px;
+  }
+  main section.form form {
+    min-height: 70vh;
+    padding: 1.5rem;
+  }
+  main section.form form div {
+    margin: 0.5rem;
+  }
+  main section.form form div label {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  main section.form form div textarea,
+  main section.form form div input {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.25rem;
+    width: 80%;
+  }
+  main section.form form button {
+    padding: 2% 5%;
+    font-size: 2rem;
+  }
+  main section.contact {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 550px;
+            flex: 1 1 550px;
+    width: 80%;
+  }
+  main section.contact div.content h2 {
+    font-size: 1.25rem;
+    margin: 1rem 2rem;
   }
   footer {
     margin: 5% 0;
