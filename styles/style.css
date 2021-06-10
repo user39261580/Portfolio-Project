@@ -62,6 +62,10 @@ header nav ul li a {
   text-decoration: none;
 }
 
+.icon {
+  width: 7%;
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,6 +138,62 @@ main section.right div.container div.rect {
   padding: 8%;
 }
 
+main section.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 500px;
+          flex: 3 1 500px;
+  padding: 1%;
+}
+
+main section.table table {
+  border-collapse: collapse;
+}
+
+main section.table table tr {
+  border-bottom: 2px solid #39342e;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+main section.table table tr td {
+  font-size: 3rem;
+  padding: 1%;
+}
+
+main section.table table tr td ol {
+  padding-left: 3.5rem;
+}
+
+main section.table table tr:hover {
+  background-color: #ff92444c;
+}
+
+main section.picture {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 12%;
+          flex: 1 1 12%;
+}
+
+main section.picture img {
+  width: 25vw;
+}
+
+main section.picture div.orangeRect {
+  width: 25vw;
+  height: 80vh;
+  background-color: #ff9344;
+  position: absolute;
+  top: 18%;
+  right: 4%;
+  z-index: -1;
+}
+
 footer {
   margin-top: 1%;
   padding-left: 2%;
@@ -176,6 +236,9 @@ footer div.freepik {
 }
 
 @media screen and (max-width: 2600px) {
+  .icon {
+    width: 7%;
+  }
   header nav ul li {
     font-size: 3rem;
   }
@@ -209,9 +272,39 @@ footer div.freepik {
     left: 20%;
     padding: 8%;
   }
+  main section.table {
+    -webkit-box-flex: 4;
+        -ms-flex: 4 1 500px;
+            flex: 4 1 500px;
+    padding: 1%;
+  }
+  main section.table table tr td {
+    font-size: 2.5rem;
+    padding: 1%;
+  }
+  main section.table table tr td ol {
+    padding-left: 3rem;
+  }
+  main section.picture {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 18%;
+            flex: 1 1 18%;
+  }
+  main section.picture img {
+    width: 25vw;
+  }
+  main section.picture div.orangeRect {
+    width: 25vw;
+    height: 80vh;
+    top: 18%;
+    right: 4%;
+  }
 }
 
 @media screen and (max-width: 2000px) {
+  .icon {
+    width: 7%;
+  }
   header nav ul li {
     font-size: 2rem;
   }
@@ -245,6 +338,33 @@ footer div.freepik {
     left: 20%;
     padding: 8%;
   }
+  main section.table {
+    -webkit-box-flex: 3;
+        -ms-flex: 3 1 500px;
+            flex: 3 1 500px;
+    padding: 1%;
+  }
+  main section.table table tr td {
+    font-size: 1.75rem;
+    padding: 1%;
+  }
+  main section.table table tr td ol {
+    padding-left: 2rem;
+  }
+  main section.picture {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 15%;
+            flex: 1 1 15%;
+  }
+  main section.picture img {
+    width: 23vw;
+  }
+  main section.picture div.orangeRect {
+    width: 23vw;
+    height: 70vh;
+    top: 22%;
+    right: 4%;
+  }
 }
 
 @media screen and (max-width: 1535px) {
@@ -255,9 +375,26 @@ footer div.freepik {
     top: 75%;
     right: 34%;
   }
+  main section.picture {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 18%;
+            flex: 1 1 18%;
+  }
+  main section.picture img {
+    width: 23vw;
+  }
+  main section.picture div.orangeRect {
+    width: 23vw;
+    height: 70vh;
+    top: 22%;
+    right: 2%;
+  }
 }
 
 @media screen and (max-width: 1115px) {
+  .icon {
+    width: 20%;
+  }
   .orange {
     opacity: 50%;
   }
@@ -305,6 +442,30 @@ footer div.freepik {
   }
   main section.right div.container div.rect {
     width: 0;
+  }
+  main section.table {
+    -webkit-box-flex: 3;
+        -ms-flex: 3 1 500px;
+            flex: 3 1 500px;
+    padding: 1%;
+  }
+  main section.table table tr td {
+    font-size: 1.5rem;
+    padding: 1%;
+  }
+  main section.table table tr td ol {
+    padding-left: 1.8rem;
+  }
+  main section.picture {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 650px;
+            flex: 1 1 650px;
+  }
+  main section.picture img {
+    width: 25vw;
+  }
+  main section.picture div.orangeRect {
+    display: none;
   }
   footer {
     margin: 5% 0;

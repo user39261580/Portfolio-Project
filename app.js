@@ -7,5 +7,5 @@ for (let i = 0; i < text.length; i++) {
 const lastWord = document.querySelector("#nineth");
 const animation = document.querySelector("div.animation");
 lastWord.addEventListener("animationend", () => {
-    animation.style = "transition: all 1s ease; opacity:0; pointer-events: none";
+    animation.style = "transition: all 1.5s ease; opacity:0; pointer-events: none";
 })
